@@ -3,11 +3,12 @@
 }*/
 @keyframes colchange{
 	from{
-		 color: white;
+/*		 color: white;*/
 		 font-size: 1.3em;
 	}
 	to{
-		 color:orangered;font-size:1.4em;	}
+/*		 color:orangered;*/
+font-size:1.8em;	}
 }
 body,html{
 	background:  url(header.jpg) no-repeat center center fixed;
@@ -19,7 +20,7 @@ body,html{
 	font-size: 1em;
 }
 h1{
-	animation: colchange 2s ease-out 2s infinite;
+	animation: colchange 2s ease-out 2s ;
 }
 .container{
 	text-align: center;
